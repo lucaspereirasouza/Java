@@ -1,0 +1,12 @@
+package classes;
+
+import objetos.MaximumFinder;
+
+public class Maxe {
+	public Double Maxe(double val1,double val2,double val3) {
+		Double first = Math.max(val2, val3);
+		Double calc = Math.max(first, val3);
+		return calc;
+	}
+	
+}
