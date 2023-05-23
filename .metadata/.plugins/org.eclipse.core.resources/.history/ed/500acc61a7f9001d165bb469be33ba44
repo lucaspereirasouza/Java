@@ -15,7 +15,7 @@ public class DrawSmiley extends JPanel{
 		g.fillOval(55, 65, 30, 30);
 		g.fillOval(135, 65,30,30);
 		//Boca
-		g.fillOval(50,110,120,60);
+		g.fillOval(50,100,120,60);
 		//Sorriso
 		//Retoque da boca para criar um sorriso
 		g.setColor(Color.yellow);
