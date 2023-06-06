@@ -14,7 +14,7 @@ public class Cliente {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer idcliente;
 	@Column
-	private String nomeCliente;
+	private String nomecliente;
 	@Column
 	private String email;
 	@Column
@@ -31,7 +31,7 @@ public class Cliente {
 	public Cliente(Integer idcliente, String nomeCliente, String email, String cpf, String telefone, Integer idade) {
 		super();
 		this.idcliente = idcliente;
-		this.nomeCliente = nomeCliente;
+		this.nomecliente = nomeCliente;
 		this.email = email;
 		this.cpf = cpf;
 		this.telefone = telefone;
@@ -47,11 +47,11 @@ public class Cliente {
 	}
 
 	public String getNomeCliente() {
-		return nomeCliente;
+		return nomecliente;
 	}
 
 	public void setNomeCliente(String nomeCliente) {
-		this.nomeCliente = nomeCliente;
+		this.nomecliente = nomeCliente;
 	}
 
 	public String getEmail() {
