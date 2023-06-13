@@ -1286,3 +1286,260 @@ java.io.IOException: Creating directories for Z:\.config\jgit failed
 2023-06-06 15:35:00,296 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2023-06-06 15:35:00,303 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2023-06-06 15:35:00,307 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\SpringBootBancoDeDados\src\test\resources
+2023-06-07 13:39:48,867 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-06-07 13:39:53,038 [JGit-FileStoreAttributeWriter-2] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[Z:\.config\jgit\config]'
+java.io.IOException: Creating directories for Z:\.config\jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:413)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:140)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:184)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:766)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$5(FS.java:448)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-06-13 13:55:58,151 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-06-13 13:56:03,833 [JGit-FileStoreAttributeWriter-2] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[Z:\.config\jgit\config]'
+java.io.IOException: Creating directories for Z:\.config\jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:413)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:140)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:184)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:766)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$5(FS.java:448)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-06-13 13:58:25,567 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 13:58:25,586 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 13:58:25,591 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\PrimeiroString\src\test\resources
+2023-06-13 13:58:26,824 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 13:58:26,841 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 13:58:26,848 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\SpringBootBancoDeDados\src\test\resources
+2023-06-13 14:00:56,526 [Worker-1: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.projeto.primeiro:SpringBootBancoDeDados-1:0.0.1-SNAPSHOT @ C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\SpringBootBancoDeDados-1\pom.xml.
+2023-06-13 14:00:57,506 [Worker-1: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootBancoDeDados-1/src/main/java
+2023-06-13 14:00:57,507 [Worker-1: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootBancoDeDados-1/src/main/resources
+2023-06-13 14:00:57,513 [Worker-1: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootBancoDeDados-1/src/main/resources
+2023-06-13 14:00:57,520 [Worker-1: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootBancoDeDados-1/src/test/java
+2023-06-13 14:00:58,149 [Worker-1: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2023-06-13 14:00:58,154 [Worker-1: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-13 14:00:58,406 [Worker-1: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.projeto.primeiro:SpringBootBancoDeDados-1:0.0.1-SNAPSHOT @ C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\SpringBootBancoDeDados-1\pom.xml.
+2023-06-13 14:00:59,211 [Worker-1: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootBancoDeDados-1/src/main/java
+2023-06-13 14:00:59,211 [Worker-1: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootBancoDeDados-1/src/main/resources
+2023-06-13 14:00:59,212 [Worker-1: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootBancoDeDados-1/src/main/resources
+2023-06-13 14:00:59,213 [Worker-1: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootBancoDeDados-1/src/test/java
+2023-06-13 14:01:00,007 [Worker-1: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2023-06-13 14:01:00,857 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 14:01:00,877 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 14:01:00,885 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\SpringBootBancoDeDados-1\src\test\resources
+2023-06-13 14:01:15,891 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.projeto.primeiro:SpringBootBancoDeDados-1:0.0.1-SNAPSHOT @ C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBanco\pom.xml.
+2023-06-13 14:01:16,704 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 14:01:16,719 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 14:01:16,724 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBanco\src\test\resources
+2023-06-13 14:01:42,461 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 14:01:42,466 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 14:01:42,471 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBanco\src\test\resources
+2023-06-13 14:06:30,515 [Worker-20: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 14:06:30,523 [Worker-20: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 14:06:30,526 [Worker-20: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBanco\src\test\resources
+2023-06-13 14:06:30,627 [Worker-20: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 14:06:30,636 [Worker-20: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 14:06:30,640 [Worker-20: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\SpringBootBancoDeDados\src\test\resources
+2023-06-13 14:07:05,513 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.projeto.primeiro:SpringBootBancoDeDados:0.0.1-SNAPSHOT @ C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancoNew\pom.xml.
+2023-06-13 14:07:06,296 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 14:07:06,310 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 14:07:06,315 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancoNew\src\test\resources
+2023-06-13 14:07:20,975 [Worker-14: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.projeto.primeiro:SpringBootBancoDeDados:0.0.1-SNAPSHOT @ C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBanco\pom.xml.
+2023-06-13 14:07:21,772 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 14:07:21,785 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 14:07:21,788 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBanco\src\test\resources
+2023-06-13 15:16:00,997 [Worker-36: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.projeto.primeiro:SpringBootBancoDeDados-1:0.0.1-SNAPSHOT @ C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\SpringBootBancoDeDados-1\pom.xml.
+2023-06-13 15:16:01,750 [Worker-36: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootBancoDeDados-1/src/main/java
+2023-06-13 15:16:01,751 [Worker-36: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootBancoDeDados-1/src/main/resources
+2023-06-13 15:16:01,757 [Worker-36: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootBancoDeDados-1/src/main/resources
+2023-06-13 15:16:01,762 [Worker-36: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootBancoDeDados-1/src/test/java
+2023-06-13 15:16:02,407 [Worker-36: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2023-06-13 15:16:02,411 [Worker-36: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-13 15:16:02,619 [Worker-36: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.projeto.primeiro:SpringBootBancoDeDados-1:0.0.1-SNAPSHOT @ C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\SpringBootBancoDeDados-1\pom.xml.
+2023-06-13 15:16:03,476 [Worker-36: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootBancoDeDados-1/src/main/java
+2023-06-13 15:16:03,478 [Worker-36: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootBancoDeDados-1/src/main/resources
+2023-06-13 15:16:03,479 [Worker-36: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootBancoDeDados-1/src/main/resources
+2023-06-13 15:16:03,480 [Worker-36: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootBancoDeDados-1/src/test/java
+2023-06-13 15:16:04,240 [Worker-36: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2023-06-13 15:16:12,041 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.projeto.primeiro:SpringBootBancoDeDados-1:0.0.1-SNAPSHOT @ C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\pom.xml.
+2023-06-13 15:16:12,843 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 15:16:12,855 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 15:16:12,858 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 15:16:14,304 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 15:16:14,308 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 15:16:14,311 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 15:19:40,703 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 15:19:40,713 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 15:19:40,718 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 15:28:34,258 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 15:28:34,271 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 15:28:34,274 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 15:28:43,672 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 15:28:43,690 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 15:28:43,694 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 15:32:19,955 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 15:32:19,964 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 15:32:19,968 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 15:33:27,715 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 15:33:27,735 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 15:33:27,739 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 15:33:50,277 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 15:33:50,284 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 15:33:50,288 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 15:34:27,438 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 15:34:27,473 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 15:34:27,506 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 15:35:47,376 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 15:35:47,381 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 15:35:47,385 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:11:53,756 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:11:53,770 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:11:53,773 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:11:58,552 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:11:58,560 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:11:58,563 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:12:32,102 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:12:32,107 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:12:32,111 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:13:55,485 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:13:55,493 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:13:55,497 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:14:08,323 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:14:08,328 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:14:08,331 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:21:01,659 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:21:01,666 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:21:01,669 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:28:40,259 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:28:40,277 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:28:40,281 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:29:33,566 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:29:33,573 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:29:33,579 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:31:02,356 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:31:02,362 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:31:02,365 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:31:16,763 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:31:16,770 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:31:16,773 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:31:34,534 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:31:34,539 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:31:34,542 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:31:57,255 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:31:57,306 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:31:57,312 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:32:21,293 [Worker-57: Launching AcessoBancopart2 - SpringBootBancoDeDados1Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:32:21,298 [Worker-57: Launching AcessoBancopart2 - SpringBootBancoDeDados1Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:32:21,302 [Worker-57: Launching AcessoBancopart2 - SpringBootBancoDeDados1Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:33:08,772 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:33:08,774 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:33:08,777 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBanco\src\test\resources
+2023-06-13 16:33:13,061 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:33:13,065 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:33:13,068 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBanco\src\test\resources
+2023-06-13 16:33:35,116 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:33:35,121 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:33:35,125 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBanco\src\test\resources
+2023-06-13 16:34:50,817 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:34:50,823 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:34:50,826 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBanco\src\test\resources
+2023-06-13 16:37:10,860 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:37:10,866 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:37:10,869 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBanco\src\test\resources
+2023-06-13 16:37:43,140 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:37:43,148 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:37:43,151 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBanco\src\test\resources
+2023-06-13 16:39:02,011 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:39:02,017 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:39:02,022 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBanco\src\test\resources
+2023-06-13 16:39:29,659 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:39:29,667 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:39:29,672 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBanco\src\test\resources
+2023-06-13 16:39:46,763 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:39:46,769 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:39:46,772 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBanco\src\test\resources
+2023-06-13 16:42:44,068 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:42:44,075 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:42:44,077 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBanco\src\test\resources
+2023-06-13 16:42:56,015 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:42:56,019 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:42:56,022 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBanco\src\test\resources
+2023-06-13 16:42:56,087 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:42:56,095 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:42:56,099 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:44:12,320 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:44:12,324 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:44:12,327 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBanco\src\test\resources
+2023-06-13 16:45:01,966 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:45:01,971 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:45:01,974 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:47:33,398 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:47:33,405 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:47:33,409 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:48:01,642 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:48:01,649 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:48:01,654 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:48:40,248 [Worker-79: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.projeto.primeiro:SpringBootBancoDeDados:0.0.1-SNAPSHOT @ C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBanco\pom.xml.
+2023-06-13 16:50:08,492 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:50:08,499 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:50:08,502 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:50:13,050 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:50:13,055 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:50:13,058 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:50:18,111 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:50:18,116 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:50:18,119 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:50:21,511 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:50:21,517 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:50:21,520 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:51:08,707 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:51:08,713 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:51:08,716 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:51:49,263 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:51:49,269 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:51:49,272 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 16:51:54,790 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 16:51:54,798 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 16:51:54,802 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 17:01:15,489 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 17:01:15,500 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 17:01:15,504 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 17:02:01,296 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 17:02:01,300 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 17:02:01,303 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 17:06:02,626 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 17:06:02,634 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 17:06:02,637 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 17:08:02,960 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 17:08:02,966 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 17:08:02,970 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 17:08:13,851 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 17:08:13,858 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 17:08:13,860 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 17:10:05,640 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 17:10:05,646 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 17:10:05,649 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 17:11:52,185 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 17:11:52,193 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 17:11:52,196 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 17:15:30,938 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 17:15:30,945 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 17:15:30,947 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 17:19:46,400 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 17:19:46,408 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 17:19:46,411 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 17:22:20,956 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 17:22:20,962 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 17:22:20,965 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 17:22:39,199 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 17:22:39,205 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 17:22:39,208 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 17:23:32,416 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 17:23:32,421 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 17:23:32,426 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
+2023-06-13 17:24:11,580 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-13 17:24:11,588 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-13 17:24:11,591 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\lucas.psouza27\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AcessoBancopart2\src\test\resources
